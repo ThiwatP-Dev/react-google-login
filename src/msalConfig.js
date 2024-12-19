@@ -11,6 +11,6 @@ export const msalConfig = {
   }
   
   export const loginRequest = {
-    scopes: ["api://9ed6e6c1-34a2-4745-bcf5-05599c78c164/User.Read"], // Specify the Microsoft Graph API scopes you need
+    scopes: ["User.Read"], // Specify the Microsoft Graph API scopes you need
   };
   
